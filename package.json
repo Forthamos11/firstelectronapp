@@ -5,7 +5,7 @@
   "main": "build/index.js",
   "scripts": {
     "compile": "tsc && cp -f src/index.html build",
-    "start": "npm run compile && electron"
+    "start": "npm run compile && electron ."
   },
   "keywords": [],
   "author": "",
